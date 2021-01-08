@@ -8,3 +8,5 @@ In the reactor, instead of opening a thread for each connection, we use one thre
 * Resource: Any resource that can provide input to or consume output from the system.
 The benefit of using reactor is minimizing threads that spend time waiting for resource availability, for example, waiting for a resource that can be read from and this way to save system resources. 
 
+![GitHub Logo](etc/diagram.png)
+
