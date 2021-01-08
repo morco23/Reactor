@@ -6,7 +6,7 @@ namespace ChatServer
     {
         static void Main(string[] args)
         {
-            new ChatApp.ChatServer(12231).Start();
+            new ChatApp.ChatServer(int.Parse(args[0])).Start();
 
         }
 
