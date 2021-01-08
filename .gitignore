@@ -343,3 +343,4 @@ healthchecksdb
 
 */**/[Dd]ebug/
 */**/[Dd]ebugPublic/
+.vs
